@@ -112,19 +112,34 @@ export function Header() {
           </DropdownMenu>
 
           {/* Search Bar */}
-          <div className="relative flex-1 max-w-xl">
+          {/* <div className="relative flex-1 max-w-xl">
             <Input
               type="text"
               placeholder="Search for your delicious product"
               className="w-full pr-10 pl-4"
             />
             <Button size="icon" variant="destructive" className="absolute right-0 top-0">
-              {/* <Search className="h-4 w-4" /> */}
               <Image
                   src={searchicon}
                   alt="My Icon"
                   width={15}
                   height={15}
+              />
+            </Button>
+          </div> */}
+          <div className="relative flex-1 max-w-xl xl:max-w-sm lg:max-w-sm ">
+            <Input
+              type="text"
+              placeholder="Search for your delicious product"
+              className="w-full pr-10 pl-4 xl:max-w-sm xl:text-xs lg:max-w-sm lg:text-xt"
+            />
+            <Button size="icon" variant="destructive" className="absolute right-0 top-0">
+              <Image
+                  src={searchicon}
+                  alt="My Icon"
+                  width={15}
+                  height={15}
+                  className="lg:w-3 lg:h-3"
               />
             </Button>
           </div>
