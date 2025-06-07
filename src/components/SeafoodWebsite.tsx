@@ -14,10 +14,10 @@ const e1 = "/Website Source Files/img1.jpg";
 const e2 = "/Website Source Files/img2.jpg";
 const f1 = "/Website Source Files/seer.jpg";
 const f2 = "/Website Source Files/black.jpg";
-const fs1 = "/Website Source Files/icons/Save Time.svg";
-const fs2 = "/Website Source Files/icons/Delivered from S2H.svg";
-const fs3 = "/Website Source Files/icons/Home Delivery.svg";
-const fs4 = "/Website Source Files/icons/Price Comparison.svg";
+const fs1 = "/icons/Save Time.png";
+const fs2 = "/icons/Delivered from S2H.png";
+const fs3 = "/icons/Home Delivery.png";
+const fs4 = "/icons/Price Comparison.png";
 const s1 = "/Website Source Files/icons/FaceBook.svg"
 const s2 = "/Website Source Files/icons/YouTube.svg"
 const s3 = "/Website Source Files/icons/Instagram.svg"
@@ -374,7 +374,7 @@ export default function SeafoodWebsite() {
                 />
               </div>
               <div className="px-3">
-                <h3 className="mb-2 text-sm font-bold">Delivered from 52H</h3>
+                <h3 className="mb-2 text-sm font-bold">Delivered from S2H</h3>
                 <p className="text-gray-600 text-xs">Fresh from the Ocean, to Your Door</p>
                 <div className="max-w-20 h-1 bg-red-600 rounded-sm mx-auto mt-2"></div>
               </div>
